@@ -34,8 +34,8 @@ pip install jupyter
 ## Basic Usage of jupyter
 ```bash
 jupyter notebook # Opens a website as empty notebook
-* #inside the notebook, select environment as python 3 that you have installed on your machine.
-* #Top Right, Select for New as dropdown and choose python 3.
+#inside the notebook, select environment as python 3 that you have installed on your machine.
+#Top Right, Select for New as dropdown and choose python 3.
 ```
 ```python
 
