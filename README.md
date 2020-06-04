@@ -44,8 +44,33 @@ os.listdir()
 import pandas
 df1=pandas.read_csv("supermarkets.csv")
 df1
+
+df2=pandas.read_json("supermarkets.json")
+df2
 ```
 *Check jupyter.ipynb file as Output
+
+###Note on Loading Excel Files
+```bash
+pip install xlrd
+```
+```python
+df3=pandas.read_excel("supermarkets.xlsx",sheet_name=0)
+df3
+
+df4=pandas.read_csv("supermarkets-commas.txt")
+df4
+
+df5=pandas.read_csv("supermarkets-semi-colons.txt",sep=";")
+df5
+```
+### Check correct attributes to use in pandas module
+```python
+pandas.read_csv?
+```
+### Set Header Row
+
+### Set Column Names
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
