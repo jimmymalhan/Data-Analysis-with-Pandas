@@ -48,9 +48,10 @@ df1
 df2=pandas.read_json("supermarkets.json")
 df2
 ```
-*Check jupyter.ipynb file as Output
+* Check jupyter.ipynb file as Output
 
-###Note on Loading Excel Files
+### Note on Loading Excel Files
+
 ```bash
 pip install xlrd
 ```
@@ -68,9 +69,9 @@ df5
 ```python
 pandas.read_csv?
 ```
-### Set Header Row
+### Set Header Row ...cont
 
-### Set Column Names
+### Set Column Names ..cont
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
