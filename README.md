@@ -1,6 +1,6 @@
 # Data Analysis with Pandas
 
-## Requirements on OS
+## Basic Requirements on OS
 * pip
 * python
 
